@@ -20,7 +20,8 @@ public class guia5extra1 {
         /**Realizar un algoritmo que calcule la suma de todos los elementos de 
          * un vector de tamaño N, con los valores ingresados por el usuario.
          */
-        // TODO code application logic here
+        // TODO code application logic here]
+        
         Scanner leer = new Scanner(System.in);
 
         System.out.println("Definir la longitud del vector: ");
@@ -35,6 +36,7 @@ public class guia5extra1 {
         for (int i = 0; i < N; i++) {
             System.out.print(vector[i] + " ");
         }
+        System.out.println("");
         suma(vector);
         
     }
